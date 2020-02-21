@@ -17,8 +17,10 @@
 // percentOf(2, 4);
 
 //STEP 4
-function findModulus () {
-    
-}
+// function findModulus (number1, number2) {
+//     let modulus = number2 % number1;
+//     window.console.log(modulus + " is the modulus of " + number1 + " and " + number2 + ".");
+// }
+// findModulus(4, 10);
 
 //STEP 5
