@@ -23,7 +23,7 @@ function rockPaperScissors () {
         } else if (computerChoice === "scissors") {
             window.document.write("You win, rock destroys scissors!");
         } else {
-            window.document.write("It's a tie! You both chose rock.")
+            window.document.write("It's a tie! You both chose rock.");
         }
     } else if (userChoice === "paper") {
         if (computerChoice === "rock") {
@@ -42,7 +42,7 @@ function rockPaperScissors () {
             window.document.write("It's a tie! You both chose scissors.");
         }
     } else {
-        window.alert("You did not spell rock, paper, or scissors correctly!")
+        window.alert("You did not spell rock, paper, or scissors correctly!");
         rockPaperScissors();
         return;
     }
