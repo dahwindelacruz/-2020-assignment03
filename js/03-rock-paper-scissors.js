@@ -10,7 +10,7 @@ function rockPaperScissors () {
     computerChoice = Math.floor(Math.random() * 10) + 1;
     if (computerChoice <= 4) {
         computerChoice = "rock";
-    } else if (computerChoice >= 5 <= 8) {
+    } else if (computerChoice <= 7 >= 5) {
         computerChoice = "paper";
     } else {
         computerChoice = "scissors";
@@ -43,6 +43,8 @@ function rockPaperScissors () {
         }
     } else {
         window.alert("You did not spell rock, paper, or scissors correctly!")
+        rockPaperScissors();
+        return;
     }
 }
 rockPaperScissors();
