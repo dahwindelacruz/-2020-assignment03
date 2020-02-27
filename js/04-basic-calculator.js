@@ -23,7 +23,6 @@ function calculate (number1, number2, operation) {
         default:
             window.alert("Please type add, subtract, multiply, or divide")
             calculate();
-            return;
     }
 }
 calculate();
