@@ -24,10 +24,7 @@
 // findModulus(4, 10);
 
 //STEP 5
-function findSum () {
-    number1 = parseInt(window.prompt("Enter a number"));
-    number2 = parseInt(window.prompt("Enter another number"));
-    number3 = parseInt(window.prompt("Enter one more number"));
-    window.console.log("The sum is " + (number1 + number2 + number3) + ".");
-}
-findSum();
+// function findSum (number1, number2, number3) {
+//     window.console.log("The sum is " + (number1 + number2 + number3) + ".");
+// }
+// findSum(parseInt(window.prompt("Enter a number")), parseInt(window.prompt("Enter another number")), parseInt(window.prompt("Enter one more number")));
